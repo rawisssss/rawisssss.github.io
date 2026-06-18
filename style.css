@@ -4,11 +4,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f4f8; 
-    color: #3b50ce; 
+    color: #0b1a24; 
 }
 
 header {
-    background: #243b53;
+    background: #192e42;
     color: #ffffff; 
     padding: 20px 0;
     text-align: center;
@@ -16,11 +16,13 @@ header {
 
 header h1 {
     margin: 0;
+    font-weight: 700;
 }
 
 header p {
     margin: 5px 0 0;
-    color: #bac7d5; 
+    
+    color: #e2e8f0; 
 }
 
 section {
@@ -29,5 +31,5 @@ section {
     max-width: 800px;
     background: #ffffff; 
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(16, 42, 67, 0.08); 
+    box-shadow: 0 4px 12px rgba(11, 26, 36, 0.1);
 }
