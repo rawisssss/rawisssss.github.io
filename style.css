@@ -3,12 +3,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f0f4f8; 
-    color: #0b1a24; 
+    background-color: #e0f2fe; 
+    color: #03254c; 
 }
 
 header {
-    background: #192e42;
+    background: #0284c7; 
     color: #ffffff; 
     padding: 20px 0;
     text-align: center;
@@ -21,8 +21,7 @@ header h1 {
 
 header p {
     margin: 5px 0 0;
-    
-    color: #e2e8f0; 
+    color: #e0f2fe; 
 }
 
 section {
@@ -31,5 +30,12 @@ section {
     max-width: 800px;
     background: #ffffff; 
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(11, 26, 36, 0.1);
+    box-shadow: 0 4px 14px rgba(2, 132, 199, 0.12); 
+}
+
+/* หัวข้อภายใน Section */
+section h2, section h3 {
+    /* ใช้สีน้ำเงินเข้มเฉดเดียวกับตัวหนังสือ แต่หนากว่า เพื่อความชัดเจน */
+    color: #03254c;
+    font-weight: 600;
 }
