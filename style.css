@@ -3,16 +3,16 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #D0FFA4;
-    color: #000181;
+    background-color: #FEF0F4;
+    color: #5A2A3E;
 }
 
 header {
-    background: linear-gradient(135deg, #000181, #006EE9);
+    background: linear-gradient(135deg, #BF1E62, #F8B6BF);
     color: #ffffff;
-    padding: 30px 0;
+    padding: 35px 0;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 1, 129, 0.25);
+    box-shadow: 0 4px 15px rgba(191, 30, 98, 0.25);
 }
 
 header h1 {
@@ -23,7 +23,7 @@ header h1 {
 
 header p {
     margin-top: 8px;
-    color: #D0FFA4;
+    color: #FEF0F4;
 }
 
 section {
@@ -32,54 +32,61 @@ section {
     max-width: 850px;
     background: #ffffff;
     border-radius: 18px;
-    box-shadow: 0 6px 18px rgba(0, 110, 233, 0.12);
+    border: 2px solid #E5F4F4;
+    box-shadow: 0 8px 20px rgba(149, 213, 209, 0.18);
     transition: all 0.3s ease;
 }
 
 section:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 24px rgba(0, 110, 233, 0.2);
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(149, 213, 209, 0.28);
 }
 
 section h2,
 section h3 {
-    color: #000181;
+    color: #BF1E62;
     font-weight: 700;
-    border-left: 5px solid #E8A0FF;
+    border-left: 5px solid #95D5D1;
     padding-left: 12px;
 }
 
 a {
-    color: #006EE9;
+    color: #BF1E62;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
 }
 
 a:hover {
-    color: #000181;
+    color: #F8B6BF;
 }
 
 button {
-    background: linear-gradient(135deg, #006EE9, #83E7FF);
-    color: #ffffff;
+    background: linear-gradient(135deg, #BF1E62, #F8B6BF);
+    color: white;
     border: none;
     padding: 10px 22px;
-    border-radius: 25px;
+    border-radius: 30px;
     cursor: pointer;
     font-weight: 600;
     transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(191, 30, 98, 0.2);
 }
 
 button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 12px rgba(0, 110, 233, 0.3);
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 6px 18px rgba(191, 30, 98, 0.3);
 }
 
 footer {
-    background: #000181;
-    color: #ffffff;
+    background: #BF1E62;
+    color: white;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
+}
+
+::selection {
+    background: #95D5D1;
+    color: #BF1E62;
 }
