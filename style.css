@@ -3,16 +3,16 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #FFD3F7;
-    color: #4A2340;
+    background-color: #D0FFA4;
+    color: #000181;
 }
 
 header {
-    background: linear-gradient(135deg, #9E1F63, #FF76B7);
+    background: linear-gradient(135deg, #000181, #006EE9);
     color: #ffffff;
     padding: 30px 0;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(158, 31, 99, 0.25);
+    box-shadow: 0 4px 15px rgba(0, 1, 129, 0.25);
 }
 
 header h1 {
@@ -23,7 +23,7 @@ header h1 {
 
 header p {
     margin-top: 8px;
-    color: #FFEAF8;
+    color: #D0FFA4;
 }
 
 section {
@@ -31,52 +31,53 @@ section {
     margin: 25px auto;
     max-width: 850px;
     background: #ffffff;
-    border-radius: 16px;
-    box-shadow: 0 6px 18px rgba(158, 31, 99, 0.12);
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(0, 110, 233, 0.12);
     transition: all 0.3s ease;
 }
 
 section:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 24px rgba(158, 31, 99, 0.18);
+    box-shadow: 0 10px 24px rgba(0, 110, 233, 0.2);
 }
 
 section h2,
 section h3 {
-    color: #9E1F63;
+    color: #000181;
     font-weight: 700;
-    border-left: 5px solid #FF76B7;
+    border-left: 5px solid #E8A0FF;
     padding-left: 12px;
 }
 
 a {
-    color: #9E1F63;
+    color: #006EE9;
     text-decoration: none;
     font-weight: 600;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 a:hover {
-    color: #FF76B7;
+    color: #000181;
 }
 
 button {
-    background: #9E1F63;
+    background: linear-gradient(135deg, #006EE9, #83E7FF);
     color: #ffffff;
     border: none;
     padding: 10px 22px;
     border-radius: 25px;
     cursor: pointer;
+    font-weight: 600;
     transition: all 0.3s ease;
 }
 
 button:hover {
-    background: #FF76B7;
     transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 110, 233, 0.3);
 }
 
 footer {
-    background: #9E1F63;
+    background: #000181;
     color: #ffffff;
     text-align: center;
     padding: 20px;
