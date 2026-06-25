@@ -3,16 +3,16 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #E5F4F4;
-    color: #4A2A38;
+    background-color: #FFD3F7;
+    color: #4A2340;
 }
 
 header {
-    background: linear-gradient(135deg, #BF1E62, #D94A84);
+    background: linear-gradient(135deg, #9E1F63, #FF76B7);
     color: #ffffff;
     padding: 30px 0;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(191, 30, 98, 0.25);
+    box-shadow: 0 4px 15px rgba(158, 31, 99, 0.25);
 }
 
 header h1 {
@@ -22,8 +22,8 @@ header h1 {
 }
 
 header p {
-    margin: 8px 0 0;
-    color: #FCE4EA;
+    margin-top: 8px;
+    color: #FFEAF8;
 }
 
 section {
@@ -32,54 +32,53 @@ section {
     max-width: 850px;
     background: #ffffff;
     border-radius: 16px;
-    box-shadow: 0 6px 18px rgba(191, 30, 98, 0.12);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 18px rgba(158, 31, 99, 0.12);
+    transition: all 0.3s ease;
 }
 
 section:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 24px rgba(191, 30, 98, 0.18);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 24px rgba(158, 31, 99, 0.18);
 }
 
 section h2,
 section h3 {
-    color: #BF1E62;
+    color: #9E1F63;
     font-weight: 700;
-    border-left: 5px solid #F8B6BF;
+    border-left: 5px solid #FF76B7;
     padding-left: 12px;
 }
 
 a {
-    color: #BF1E62;
+    color: #9E1F63;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #8E174B;
+    color: #FF76B7;
 }
 
 button {
-    background: #BF1E62;
-    color: white;
+    background: #9E1F63;
+    color: #ffffff;
     border: none;
-    padding: 10px 20px;
-    border-radius: 30px;
+    padding: 10px 22px;
+    border-radius: 25px;
     cursor: pointer;
-    font-size: 16px;
     transition: all 0.3s ease;
 }
 
 button:hover {
-    background: #A01954;
+    background: #FF76B7;
     transform: scale(1.05);
 }
 
 footer {
+    background: #9E1F63;
+    color: #ffffff;
     text-align: center;
     padding: 20px;
-    background: #F8B6BF;
-    color: #5B2940;
     margin-top: 30px;
 }
