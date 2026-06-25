@@ -3,39 +3,83 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #e0f2fe; 
-    color: #03254c; 
+    background-color: #E5F4F4;
+    color: #4A2A38;
 }
 
 header {
-    background: #0284c7; 
-    color: #ffffff; 
-    padding: 20px 0;
+    background: linear-gradient(135deg, #BF1E62, #D94A84);
+    color: #ffffff;
+    padding: 30px 0;
     text-align: center;
+    box-shadow: 0 4px 15px rgba(191, 30, 98, 0.25);
 }
 
 header h1 {
     margin: 0;
     font-weight: 700;
+    letter-spacing: 1px;
 }
 
 header p {
-    margin: 5px 0 0;
-    color: #e0f2fe; 
+    margin: 8px 0 0;
+    color: #FCE4EA;
 }
 
 section {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background: #ffffff; 
-    border-radius: 8px;
-    box-shadow: 0 4px 14px rgba(2, 132, 199, 0.12); 
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 850px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(191, 30, 98, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* หัวข้อภายใน Section */
-section h2, section h3 {
-    /* ใช้สีน้ำเงินเข้มเฉดเดียวกับตัวหนังสือ แต่หนากว่า เพื่อความชัดเจน */
-    color: #03254c;
+section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(191, 30, 98, 0.18);
+}
+
+section h2,
+section h3 {
+    color: #BF1E62;
+    font-weight: 700;
+    border-left: 5px solid #F8B6BF;
+    padding-left: 12px;
+}
+
+a {
+    color: #BF1E62;
+    text-decoration: none;
     font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #8E174B;
+}
+
+button {
+    background: #BF1E62;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #A01954;
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #F8B6BF;
+    color: #5B2940;
+    margin-top: 30px;
 }
